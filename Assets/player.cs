@@ -4,23 +4,29 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    int playerSpeed = 5;
-    SpriteRenderer spriter;
-    private void Start()
+  float rightMax = 5.0f;
+    float leftMax = -5.0f;
+    float currentPosition;
+    float direction = 3.0f;
+    void Start()
     {
-        spriter = GetComponent<SpriteRenderer>();
+        currentPosition = transform.position.x;
     }
 
     // Update is called once per frame
     void Update()
     {
-        PlayerMove();
-    }
+        currentPosition += Time.deltaTime*direction;
+        if(currentPosition >= rightMax){
+            direction *= -1;
+            currentPosition = rightMax;
+        }
+        else if(currentPosition <= leftMax){
+            direction *= -1;
+            currentPosition = leftMax;
+        }
 
-    void PlayerMove(){
-        
-        transform.Translate(new Vector3(-playerSpeed*Time.deltaTime/3, 0, 0));
-    
+        transform.position = new Vector3(currentPosition,0 ,0);
     }
 
 
