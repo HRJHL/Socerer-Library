@@ -22,6 +22,15 @@ public class Distance : MonoBehaviour
 
     void LateUpdate()
     {
+        if(Dist1 <4){
+            dist2.transform.position = dist1.transform.position+new Vector3(0,-3,0);
+        }
+        if(Dist2 <4){
+            dist3.transform.position = dist1.transform.position+new Vector3(0,-3,0);
+        }
+        if(Dist3 <4){
+            dist3.transform.position = dist2.transform.position+new Vector3(0,-3,0);
+        }
         print("Dist: " + Dist1 );
         print("Dist: " + Dist2 );
         print("Dist: " + Dist3 );
