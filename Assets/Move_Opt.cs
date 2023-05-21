@@ -7,7 +7,7 @@ public class Move_Opt : MonoBehaviour
 {
     // Start is called before the first frame update
     public void OnClick(){
-        SceneManager.LoadScene("Option");
+        SceneManager.LoadScene("OptionScene");
         Debug.Log("Bootn Click");
     }
 

@@ -7,7 +7,7 @@ public class Move_Main : MonoBehaviour
 {
     // Start is called before the first frame update
     public void OnClick(){
-        SceneManager.LoadScene("Main_Home");
+        SceneManager.LoadScene("MainScene");
         Debug.Log("Bootn Click");
     }
 

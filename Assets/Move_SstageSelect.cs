@@ -7,7 +7,7 @@ public class Move_SstageSelect : MonoBehaviour
 {
     // Start is called before the first frame update
     public void OnClick(){
-        SceneManager.LoadScene("Stage_Select");
+        SceneManager.LoadScene("StageSelectionScene");
         Debug.Log("Bootn Click");
     }
 

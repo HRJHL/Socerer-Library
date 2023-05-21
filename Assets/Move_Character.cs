@@ -7,7 +7,7 @@ public class Move_Character : MonoBehaviour
 {
     // Start is called before the first frame update
     public void OnClick(){
-        SceneManager.LoadScene("Character");
+        SceneManager.LoadScene("Cloth");
         Debug.Log("Bootn Click");
     }
 

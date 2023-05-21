@@ -7,7 +7,7 @@ public class Move_Repeat : MonoBehaviour
 {
     // Start is called before the first frame update
     public void OnClick(){
-        SceneManager.LoadScene("Repeat");
+        SceneManager.LoadScene("DictionaryScene");
         Debug.Log("Bootn Click");
     }
 
