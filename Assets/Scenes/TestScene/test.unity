@@ -388,7 +388,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 755225991}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &202015567
 SpriteRenderer:
@@ -430,7 +430,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: f11b559dd53972a4a986ab591e5ade28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -593,7 +593,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: f7982a7d3f035eb47bcd36dc84a93aab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -860,6 +860,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 755225991}
+  - {fileID: 1105860242}
   - {fileID: 1738766898}
   - {fileID: 1797853287}
   - {fileID: 1439234622}
@@ -985,7 +986,6 @@ Transform:
   m_LocalScale: {x: 28.74567, y: 1.0060332, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1105860242}
   - {fileID: 202015566}
   m_Father: {fileID: 627752983}
   m_RootOrder: 0
@@ -1086,7 +1086,7 @@ GameObject:
   - component: {fileID: 968738396}
   - component: {fileID: 968738397}
   m_Layer: 0
-  m_Name: Puze
+  m_Name: ST
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1100,7 +1100,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968738394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 0.9896457, y: 0.9896457, z: 0.9896457}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1120,7 +1120,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.003248036, y: 0.41735506}
+  m_Offset: {x: -0.0032479763, y: -0.95324016}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1131,7 +1131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.6966748, y: 0.7153871}
+  m_Size: {x: 2.6966748, y: 1.8321676}
   m_EdgeRadius: 0
 --- !u!50 &968738397
 Rigidbody2D:
@@ -1213,19 +1213,19 @@ RectTransform:
   m_GameObject: {fileID: 1105860241}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.33924288, y: 0.4744125, z: 1}
+  m_LocalScale: {x: 9.922265, y: 0.4704318, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1905976695}
   - {fileID: 114938660}
   - {fileID: 1355574173}
   - {fileID: 1168267443}
-  m_Father: {fileID: 755225991}
-  m_RootOrder: 0
+  m_Father: {fileID: 627752983}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 113.47626, y: 83.7433}
+  m_AnchoredPosition: {x: 3415.4446, y: 83.04178}
   m_SizeDelta: {x: 698, y: 352}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1105860243
@@ -1287,7 +1287,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!1 &1167975039
 GameObject:
@@ -1350,7 +1350,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c9bd37c40db9b3444ba7d2e95fb75d03, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1869,7 +1869,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 6bdf4190d2e9bc34abcdd3d898ddd2ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1890,7 +1890,7 @@ Transform:
   m_GameObject: {fileID: 1437656196}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10, y: 9, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.39999998, y: 0.30000004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 968738395}
@@ -1935,12 +1935,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439234621}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 85.198, y: -2.8475, z: 0}
-  m_LocalScale: {x: 16.956526, y: 0.15719731, z: 1}
+  m_LocalPosition: {x: 93.709, y: -2.7749, z: 0}
+  m_LocalScale: {x: 14.298844, y: 0.13146192, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 627752983}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1439234623
 BoxCollider2D:
@@ -2031,6 +2031,7 @@ GameObject:
   - component: {fileID: 1446915582}
   - component: {fileID: 1446915583}
   - component: {fileID: 1446915584}
+  - component: {fileID: 1446915585}
   m_Layer: 0
   m_Name: Puze
   m_TagString: Untagged
@@ -2046,7 +2047,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446915581}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -4, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 0.9343462, y: 1.045965, z: 1.32615}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2066,7 +2067,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.15570152, y: 0.4666794}
+  m_Offset: {x: 0.15570152, y: -0.39785197}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2077,7 +2078,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.5163214, y: 0.61673844}
+  m_Size: {x: 3.5163214, y: 2.3458016}
   m_EdgeRadius: 0
 --- !u!50 &1446915584
 Rigidbody2D:
@@ -2100,6 +2101,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1446915585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446915581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e05562aa8261740a2467cb45a138e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1578724375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,8 +2124,9 @@ GameObject:
   - component: {fileID: 1578724376}
   - component: {fileID: 1578724377}
   - component: {fileID: 1578724378}
+  - component: {fileID: 1578724379}
   m_Layer: 0
-  m_Name: Puze
+  m_Name: END
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2126,7 +2140,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578724375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -4, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 1.0433153, y: 1.0536203, z: 1.32615}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2146,7 +2160,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.12375116, y: 0.42765075}
+  m_Offset: {x: 0.12375116, y: -0.5934}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2157,7 +2171,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.1464653, y: 0.6947957}
+  m_Size: {x: 3.1464653, y: 1.610249}
   m_EdgeRadius: 0
 --- !u!50 &1578724378
 Rigidbody2D:
@@ -2180,6 +2194,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1578724379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578724375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9a3918b42137041a38acba44dedff3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1738766897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,7 +2237,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 627752983}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1738766899
 SpriteRenderer:
@@ -2385,12 +2411,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797853286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 79.922, y: 2.85, z: 0}
-  m_LocalScale: {x: 14.471702, y: 0.16307352, z: 1}
+  m_LocalPosition: {x: 89.4, y: 3.18, z: 0}
+  m_LocalScale: {x: 14.095437, y: 0.13732421, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 627752983}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1797853288
 BoxCollider2D:

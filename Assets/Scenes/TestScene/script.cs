@@ -8,7 +8,9 @@ public class script : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collider){
         if(collider.gameObject.name == "Puze"){
             transform.position = collider.gameObject.transform.position;
-            
+        }
+        if(collider.gameObject.name == "ST"){
+            transform.position = collider.gameObject.transform.position;
         }
     }
 }
