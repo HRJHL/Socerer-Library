@@ -5,10 +5,10 @@ using UnityEngine;
 public class Playermove : MonoBehaviour
 {
     public GameObject targetPosition;
-    void Start()
+    Vector3 speed = Vector3.zero;
+    void Update()
     {
-     transform.position = Vector3.MoveTowards(gameObject.transform.position, targetPosition.transform.position, 0.00000001f);
+     transform.position = Vector3.SmoothDamp(transform.position,targetPosition.transform.position,ref speed, 0.01f);
     }
-    
 
 }
