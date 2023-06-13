@@ -56,7 +56,7 @@ public class Playermove : MonoBehaviour
         }
 
         if(timer > 8 && timer < 10){
-            transform.Translate(new Vector3(-playerSpeed*Time.deltaTime, 0, 0));
+            transform.Translate(new Vector3(playerSpeed*Time.deltaTime, 0, 0));
         }
         else{
             if(timer>30){
@@ -65,7 +65,7 @@ public class Playermove : MonoBehaviour
         }
 
         if(timer > 12 && timer < 14){
-            transform.Translate(new Vector3(playerSpeed*Time.deltaTime, 0, 0));
+            transform.Translate(new Vector3(-playerSpeed*Time.deltaTime, 0, 0));
         }
         else{
             if(timer>30){
